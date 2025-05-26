@@ -51,9 +51,9 @@ export function useMovies(query) {
       // handleCloseMovie();
       fetchMovies();
 
-     // return function () {
-      //  controller.abort();
-     // };
+      return function () {
+        controller.abort();
+      };
     },
     [query],
   );
