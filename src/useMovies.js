@@ -5,7 +5,7 @@ export function useMovies(query) {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const KEY = "";
+  const KEY = "79f60558";
 
   useEffect(
     function () {
